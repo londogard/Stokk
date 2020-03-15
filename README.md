@@ -1,0 +1,2 @@
+# Stokk
+Compund intererest calculator

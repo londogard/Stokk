@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b01b10c-3f94-4112-bdcd-ec27208773d5" name="Default Changelist" comment="" />
+    <list default="true" id="9b01b10c-3f94-4112-bdcd-ec27208773d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/londogard/stokk/Stokk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/londogard/stokk/Stokk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/londogard/stokkTest/StokkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/londogard/stokkTest/StokkTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/londogard/stokk/Stokk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/londogard/stokk/Stokk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/londogard/stokkTest/StokkTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/londogard/stokkTest/StokkTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +26,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -34,10 +45,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZA6ng5iNBkCA4E6dlsP8TecQLO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +60,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +68,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StokkTest.avanza test">
+  <component name="RunManager" selected="JUnit.StokkTest.month by month">
     <configuration name="FuzzyMatcherTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -109,8 +125,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StokkTest.month by month" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stokk.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.londogard.stokkTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.londogard.stokkTest" />
+      <option name="MAIN_CLASS_NAME" value="com.londogard.stokkTest.StokkTest" />
+      <option name="METHOD_NAME" value="month by month" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StokkTest.month by month" />
         <item itemvalue="JUnit.StokkTest.avanza test" />
         <item itemvalue="Gradle.StokkTest" />
         <item itemvalue="Gradle.FuzzyMatcherTest" />
@@ -128,21 +161,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1584278659585">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1584285567817">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1584278659585" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1584278659584">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1584285567817" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1584285567817">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1584278659584" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1584278659584">
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1584285567817" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1584285567816">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1584278659584" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1584278659584">
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1584285567816" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1584285567817">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1584278659584" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1584285567817" />
   </component>
 </project>

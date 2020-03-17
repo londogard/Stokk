@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+
     testImplementation("org.amshove.kluent:kluent:1.59")
     testImplementation("junit:junit:4.12")
     testImplementation("org.slf4j:slf4j-simple:1.7.26")
@@ -57,7 +58,7 @@ publishing {
         }
     }
     publications {
-        register<MavenPublication>("gpr"){
+        register<MavenPublication>("gpr") {
             from(components["java"])
         }
     }

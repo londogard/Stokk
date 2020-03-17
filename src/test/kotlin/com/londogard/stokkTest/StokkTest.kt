@@ -27,4 +27,8 @@ class StokkTest {
         Stokk.compoundInterest(12, 100_000.0, 1.07, 1000).roundToInt() shouldBeEqualTo 447_936
     }
 
+    @Test
+    fun `month by month`() {
+        Stokk.compoundInterestMonthByMonth(1, 100.0, 1.0, 0) shouldBeEqualTo List(13) { 100.0 }
+    }
 }
